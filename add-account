@@ -1,0 +1,13 @@
+// This program is to allow the user to add accounts to be
+// saved to the manager.
+
+class AddAccount
+{
+  public static void main (String args[])
+  {
+    System.out.println ("Please enter the username or ID: ");
+    String username = In.getString(); // username or ID to be saved for the user
+    System.out.println ("Please enter the password: ");
+    String password = In.getString(); // password to be saved for the user
+  }
+}
