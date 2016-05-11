@@ -1,0 +1,25 @@
+// This is the login page. 
+// The username is 'user' and the 
+// password is '1Password'.
+
+class LoginPage
+{
+  public static void main (String args[])
+  {
+    
+    while (true){
+      System.out.println ("Please enter your username: ");
+      String user_Name = In.getString(); // username to login to the program 1PasswordManager
+      System.out.println ("Please enter your password: ");
+      String password = In.getString(); // password to login to the program 1PasswordManager
+      
+      if (user_Name.equals("user") && (password.equals("1Password")))
+      {
+        System.out.println ("The password is correct. You may login.");
+        break;
+      } else {
+        System.out.println ("The password is incorrect. Please try again.");
+      }
+    }
+  }
+}
